@@ -29,7 +29,7 @@ Para más información, se puede consultar la guía oficial de Linux en el sigui
     - [5. Gestión del Almacenamiento](#5-gestión-del-almacenamiento)
     - [6. Gestión de Red](#6-gestión-de-red)
     - [7. Gestión de Paquetes](#7-gestión-de-paquetes)
-  
+    - [8. Revisión de Logs](#8-revisión-de-logs)
 
 ---
 
@@ -213,5 +213,22 @@ A mayores, para instalar o desinstalar cualquier programa en nuestros equipos Li
 
 * `apt install: Para instalar programas.`
 * `apt remove: Para desinstalar programas.`
+
+---
+
+### 8. Revisión de Logs
+
+Como admisitradores de sistemas, debemos familiarizarnos con los logs ya sean del sistema operativo o de algún programa o servicio.
+
+En los sistemas Linux, los logs se almacenan en la ruta `/var/log`.
+
+Dentro de esta ruta, se crean los ficheros correspondientes para los servicios. 
+
+Por ejemplo:
+
+* `/var/log/syslog:  Información general y actividad del sistema`
+* `/var/log/auth.log: Intentos de inicio de sesión, accesos por SSH y uso de sudo.`
+* `/var/log/kern.log: Mensajes específicos del núcleo.`
+* `/var/log/dmesg: Buffer de mensajes del kernel durante el arranque.`
 
 ---
