@@ -17,23 +17,23 @@ Para más información, se puede consultar la guía oficial de Linux en el sigui
 
 - [Comandos Básicos en Linux para Administradores de Sistemas](#comandos-básicos-en-linux-para-administradores-de-sistemas)
   - [Indice](#indice)
-    - [1. Gestión de Archivos](#1-gestión-de-archivos)
+    - [1. Gestión de Archivos 📜](#1-gestión-de-archivos)
       - [1.1 Revisión y Modificación de Archivos y/o Directorios](#11-revisión-y-modificación-de-archivos-yo-directorios)
       - [1.2 Visualización y modificación de archivos](#12-visualización-y-modificación-de-archivos)
       - [1.3 Gestión de Permisos en Archivos y Directorios](#13-gestión-de-permisos-en-archivos-y-directorios)
-    - [2. Gestión de Usuarios](#2-gestión-de-usuarios)
+    - [2. Gestión de Usuarios 👥](#2-gestión-de-usuarios)
       - [2.1 Consulta de Usuarios y Grupos](#21-consulta-de-usuarios-y-grupos)
       - [2.2 Administración de Usuarios y Grupos](#22-administración-de-usuarios-y-grupos)
-    - [3. Gestión de Procesos](#3-gestión-de-procesos)
-    - [4. Gestión de Servicios](#4-gestión-de-servicios)
-    - [5. Gestión del Almacenamiento](#5-gestión-del-almacenamiento)
-    - [6. Gestión de Red](#6-gestión-de-red)
-    - [7. Gestión de Paquetes](#7-gestión-de-paquetes)
-    - [8. Revisión de Logs](#8-revisión-de-logs)
+    - [3. Gestión de Procesos 🖥️](#3-gestión-de-procesos)
+    - [4. Gestión de Servicios 🛠️](#4-gestión-de-servicios)
+    - [5. Gestión del Almacenamiento 💾](#5-gestión-del-almacenamiento)
+    - [6. Gestión de Red 🌐](#6-gestión-de-red)
+    - [7. Gestión de Paquetes 📦](#7-gestión-de-paquetes)
+    - [8. Revisión de Logs 📄](#8-revisión-de-logs)
 
 ---
 
-### 1. Gestión de Archivos
+### 1. Gestión de Archivos 📜
 
 Una parte importante de Administrar sistemas informáticos pasa por gestionar y supervisar el sistema de archivos en un equipo, así como establecer los permisos necesarios sobre estos.
 
@@ -94,7 +94,7 @@ Los permisos más habituales a establecer son los siguientes:
 
 ---
 
-### 2. Gestión de Usuarios
+### 2. Gestión de Usuarios 👥
 
 Como Administradores de Sistemas, también debemos gestionar los usuarios y grupos de usuarios que van a trabajar en nuestros equipos ya bien sean usuarios locales o usuarios por LDAP.
 Primeramente veremos como se consultan los usuarios y los grupos, y posteriormente veremos como se gestionan.
@@ -129,7 +129,7 @@ Con respecto a nuestra labor como Administradores de Sistemas, nuestra labor pas
 
 ---
 
-### 3. Gestión de Procesos
+### 3. Gestión de Procesos 🖥️
 
 En todo Sistema Operativo se inician, ejecutan y terminan distintos procesos con el que se consiguen diferentes funcionalidades.
 
@@ -143,7 +143,7 @@ En este aspecto podemos comentar tres comandos de gran utilidad:
 
 ---
 
-### 4. Gestión de Servicios
+### 4. Gestión de Servicios 🛠️
 
 Al igual que con los procesos, debemos gestionar los servicios de un Sistema Operativo para iniciarlos o detenerlos en caso de que sea necesario.
 
@@ -162,7 +162,7 @@ A mayores, es interesante utilizar el comando **journalctl**, que nos permitirá
 
 ---
 
-### 5. Gestión del Almacenamiento
+### 5. Gestión del Almacenamiento 💾
 
 La otra parte primordial de un Sistema Operativo es el almacenamiento. Una buena gestión del almacenamiento disponible en un aspecto primordial para el uso eficiente de un Sistema Operativo.
 
@@ -184,7 +184,7 @@ Por último, pero no por ello menos importante, podremos revisar la cantidad de 
 
 ---
 
-### 6. Gestión de Red
+### 6. Gestión de Red 🌐
 
 En Linux, las configuraciones de red se realizan modificando varios archivos de configuración por ejemplo el fichero interfaces de la ruta `/etc/network`.
 
@@ -200,7 +200,7 @@ Otro comando típico es **traceroute**. Con este comando podemos ver por que equ
 
 ---
 
-### 7. Gestión de Paquetes
+### 7. Gestión de Paquetes 📦
 
 Por último, pero también primordial, tendremos que tener los equipos correctamente actualizados.
 
@@ -216,7 +216,7 @@ A mayores, para instalar o desinstalar cualquier programa en nuestros equipos Li
 
 ---
 
-### 8. Revisión de Logs
+### 8. Revisión de Logs 📄
 
 Como admisitradores de sistemas, debemos familiarizarnos con los logs ya sean del sistema operativo o de algún programa o servicio.
 
