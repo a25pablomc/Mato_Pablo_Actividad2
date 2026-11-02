@@ -231,4 +231,13 @@ Por ejemplo:
 * `/var/log/kern.log: Mensajes específicos del núcleo.`
 * `/var/log/dmesg: Buffer de mensajes del kernel durante el arranque.`
 
+Estos logs podrán consultarse con los comandos: `cat,less,tail o journalctl.` Recomendamos que se utilice el comando `journalctl`. 
+
+Ejemplos:
+
+* `journalctl -f: Muestra los logs en tiempo real.`
+* `journalctl -b: Muestra únicamente los logs desde el último arranque del sistema.`
+* `journalctl -u ssh: Filtra los registros de un servicio específico.`
+* `journalctl -p err: Filtra los mensajes por nivel de prioridad.`
+
 ---
