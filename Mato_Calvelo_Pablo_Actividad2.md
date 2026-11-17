@@ -241,3 +241,11 @@ Ejemplos:
 * `journalctl -p err: Filtra los mensajes por nivel de prioridad.`
 
 ---
+
+## Recomendaciones de seguridad
+
+Para trabajar de modo seguro en cualquier entorno Linux, se recomiendan las siguientes acciones:
+
+- Utilizar el comando sudo en las menores ocasiones posibles.
+- Añadir a los usuarios estrictamente necesarios en el grupo sudoers.
+- Revisar periodicamente los permisos de los usuarios del sistema.
